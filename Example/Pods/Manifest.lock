@@ -1,0 +1,16 @@
+PODS:
+  - FitBit_iOS (0.1.0)
+
+DEPENDENCIES:
+  - FitBit_iOS (from `../`)
+
+EXTERNAL SOURCES:
+  FitBit_iOS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FitBit_iOS: bd2adb6e4c08fcbf5616af4a328a9e5373219953
+
+PODFILE CHECKSUM: bc2c882797aa3b9d49710a8cc615457e7a4df84f
+
+COCOAPODS: 1.1.1

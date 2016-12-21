@@ -1,0 +1,6 @@
+framework module FitBit_iOS {
+  umbrella header "FitBit_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

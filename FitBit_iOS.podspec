@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FitBit_iOS'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FitBit_iOS.'
+  s.summary          = 'this is swift 2.3 version of FitBit_iOS. We have integrated Fitbit API to fetch all fitbit AI data'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,16 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'this is swift 2.3 version of FitBit_iOS. We have integrated Fitbit API to fetch all fitbit AI data. For more detail contact msy.shani@gmail.com'
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/FitBit_iOS'
+  s.homepage         = 'https://github.com/msyshani/FitBit_iOS.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mahendra Yadav' => 'msy.shani@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/FitBit_iOS.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/msyshani/FitBit_iOS.git', :tag => '0.1.0' }
+  # s.social_media_url = 'https://twitter.com/yadav_shani'
 
   s.ios.deployment_target = '8.0'
 
@@ -39,4 +37,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'OAuthSwift', '~> 0.6.0'
 end
