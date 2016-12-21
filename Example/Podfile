@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FitBit_iOS_Example' do
+  pod 'FitBit_iOS', :path => '../'
+
+  target 'FitBit_iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
